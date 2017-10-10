@@ -41,15 +41,8 @@ if (place_meeting(x,y+verticalsp,Obj_Stone_Wall))
 
 y = y + verticalsp;
 
-if (Key_right = true && place_meeting(x,y+1,Obj_Stone_Wall) or Key_left = true && place_meeting(x,y+1,Obj_Stone_Wall))
-{
-image_speed = 2;
-}
-else
-{ 
-image_speed = 0;
-}
-if (keyboard_check(vk_right) or keyboard_check(ord("D")))
-{
-image_angle = 100;
-}
+//Animation
+if (horizontalsp > 0) image_speed = 2;
+else image_speed = 0;
+
+
