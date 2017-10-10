@@ -42,26 +42,7 @@ if (place_meeting(x,y+verticalsp,Obj_Stone_Wall))
 y = y + verticalsp;
 
 //Animation
-if (!place_meeting(x,y+1,Obj_Stone_Wall))
-{
-    sprite_index = Spr_Player_Mainbody_Red;
-	image_speed = 0;
-	if (sign(verticalsp) > 0) image_index = 1; else image_index = 0;
-}
-else
-{
-     image_speed = 1;
-	 if (!horizontalsp == 0) or (horizontalsp < 0) or (horizontalsp > 0)
-	 {
-	     sprite_index = Spr_Player_Mainbody_Red;
-	  
-	 }
-	 else
-	 {
-	    image_index= 0;
-		image_speed= 0;
-     }
-	
-} 
-if (horizontalsp != 0) image_xscale = sign(horizontalsp);
-if (horizontalsp == 0) image_xscale = 2
+if (horizontalsp > 0) image_speed = 2;
+else image_speed = 0;
+
+
