@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "109d1b7a-875d-4f65-b47a-1a166df523e4",
+            "Value": {
+                "id": "327c2340-2bfc-40d8-b3d7-8f258f8fb264",
+                "resourcePath": "sprites\\Enzo_design9\\Enzo_design9.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1434cd38-ff23-443d-8d8b-21473102a606",
             "Value": {
                 "id": "e5c8dfa4-51d4-4cfb-8c84-09b7787930c5",
