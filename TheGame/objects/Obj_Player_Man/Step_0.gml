@@ -41,8 +41,24 @@ if (place_meeting(x,y+verticalsp,Obj_Stone_Wall))
 
 y = y + verticalsp;
 
-//Animation
-if (horizontalsp > 0) image_speed = 2;
-else image_speed = 0;
+//Animation 
+if (!place_meeting(x,y+1,Obj_Stone_Wall))
+{
+ image_speed = 0;
+ if (sign(verticalsp) > 0) image_index = 1; else image_index = 0;
 
-
+}
+else 
+{
+    if (horizontalsp == 0)
+	{
+		 
+		 image_index = 0	 
+		 image_speed = 0
+	}
+	else
+	{
+	  image_speed = 1 
+	}
+}
+if (horizontalsp != 0) image_xscale = sign(horizontalsp) + sign(horizontalsp); 

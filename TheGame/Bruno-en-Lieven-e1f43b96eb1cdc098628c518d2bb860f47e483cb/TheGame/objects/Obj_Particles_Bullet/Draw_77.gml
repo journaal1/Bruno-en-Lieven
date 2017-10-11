@@ -1,0 +1,1 @@
+if (place_meeting(x,y,Obj_Stone_Wall)) instance_destroy();
