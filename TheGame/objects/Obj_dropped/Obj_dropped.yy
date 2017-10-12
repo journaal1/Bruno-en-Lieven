@@ -1,18 +1,28 @@
 {
-    "id": "897199d8-4894-41dd-8552-6b8986687378",
+    "id": "21aaaaf4-7624-4be1-8f9c-5a28df038a05",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Obj_Enemy_StoneMan",
+    "name": "Obj_dropped",
     "eventList": [
         {
-            "id": "80458486-0e99-4e32-a290-5d206744fd7a",
+            "id": "db6be937-6b14-4506-ac58-94b285e7495d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "897199d8-4894-41dd-8552-6b8986687378"
+            "m_owner": "21aaaaf4-7624-4be1-8f9c-5a28df038a05"
+        },
+        {
+            "id": "6097095b-1cb5-4dac-9a61-03bb91c271c0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "21aaaaf4-7624-4be1-8f9c-5a28df038a05"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -31,6 +41,6 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "solid": false,
-    "spriteId": "c402d0ae-035d-43e9-bd1f-6611590b9044",
+    "spriteId": "4b13d20f-7315-4700-a398-2864f829c69c",
     "visible": true
 }
